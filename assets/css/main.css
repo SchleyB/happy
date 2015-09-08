@@ -1,0 +1,306 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,800|Lato:400,700);
+
+body {
+	background: #363636;
+	font-family: 'Lato', helvetica, sans-serif;
+}
+
+h1, h2, h3, h4 {
+	color: #00BC66;
+}
+
+.logo {
+	font-weight: 300;
+}
+
+p {
+	color: #323232;
+}
+
+p strong {
+	color: #323232;
+}
+
+.styled-select {
+    position: relative;
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: none;
+  font: 500 30px/1.2em 'Raleway', sans-serif;
+  background: #00BC66;
+  background: url(/images/arrow-icon.png) no-repeat right #00BC66;
+  padding: 25px 100px 25px 50px;
+  color: #fff;
+  width: 95%;
+  border-radius: 2px;
+  opacity: 0.8;
+}
+
+.labels {
+	color: #d5d5d5;
+	font-weight: 300;
+	font-size: 30px;
+}
+
+#index-button {
+	border: none;
+	font: 500 30px/1.2em 'Raleway', sans-serif;
+	background: #363636;
+	border: 1px solid #00BC66;
+	padding: 25px;
+	color: #d5d5d5;
+	width: 95%;
+	border-radius: 2px;
+	margin-top: 46px;
+	transition: all 0.3s;
+}
+
+#index-button:hover {
+	background: #00BC66;
+}
+
+@media (min-width: 992px) {
+	#index-row {
+		margin-top: 50px;
+	}
+}
+
+.hero-text {
+	font-family: 'Raleway', sans-serif;
+	font-size: 75px;
+	color: #fff;
+	line-height: 86px;
+	text-align: center;
+	margin-top: 50px;
+}
+
+@media (max-width: 767px) {
+	.hero-text {
+		margin-top: -40px;
+		line-height: 1.2em;
+		font-size: 35px;
+		padding: 20px 0;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.hero-text {
+		margin-top: -40px;
+		line-height: 1.2em;
+		padding: 20px 0;
+	}
+}
+
+/****Video****/
+
+.fullscreen-bg {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: -100;
+  opacity: 0.8;
+}
+
+.fullscreen-bg__video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+@media (min-aspect-ratio: 16/9) {
+  .fullscreen-bg__video {
+    height: 300%;
+    top: -100%;
+  }
+}
+
+@media (max-aspect-ratio: 16/9) {
+  .fullscreen-bg__video {
+    width: 300%;
+    left: -100%;
+  }
+}
+
+/*
+
+@media (max-width: 767px) {
+  .fullscreen-bg {
+    background: url('../img/videoframe.jpg') center center / cover no-repeat;
+  }
+
+  .fullscreen-bg__video {
+    display: none;
+  }
+}
+
+*/
+
+/****end Video****/
+
+
+
+/****Header styles****/
+
+nav.navbar.navbar-default {
+    background-color: transparent;
+    border: none;
+    padding: 40px;
+}
+
+a.navbar-brand {
+    font-size: 40px;
+    font-family: 'Raleway', helvetica, sans-serif;
+    color: #d5d5d5 !important;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #d5d5d5;
+    font-size: 19px;
+	transition: border 0.2s, color 0.2s ease;
+}
+
+.navbar-brand strong {
+    color: #00BC66;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #00BC66;
+    border-bottom: 5px solid #00BC66;
+}
+
+div#bs-example-navbar-collapse-1 {
+    border: none;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border: none;
+}
+
+.navbar-collapse {
+    box-shadow: none;
+    border: none;
+}
+
+@media (max-width: 480px){
+	a.navbar-brand {
+		font-size: 26px;
+	}
+}
+
+/****End Header****/
+
+
+#home-block {
+	width: 400px;
+	margin: 0 auto;
+	text-align: center;
+	background-color: #363636;
+	border-radius: 10px;
+	margin-top: 200px;
+	padding: 2em 0;
+	opacity: 0.9;
+	border: 1px solid #d5d5d5;
+}
+
+h2.logo {
+    padding: .5em 0;
+}
+
+#home-block button {
+    margin: 1em 0;
+    background-color: #363636;
+    border-color: #00BC66;
+    color: #d5d5d5;
+}
+
+/****Get coords screen****/
+
+#get-coords-div {
+	margin: 20% auto;
+	width: 80%;
+	text-align: center
+}
+
+#get-coords-div h2 {
+	font-weight: 300;
+	font-size: 30px;
+}
+
+#get-coords-div img {
+	width: 140px;
+	margin: auto;
+}
+
+/****End Coords Screen****/
+
+/****Map Page****/
+
+#map-nav {
+	background: #363636;
+}
+
+#map-row {
+	margin-top: 130px;
+}
+
+.venue-list h2 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 30px;
+	color: #323232;
+	font-weight: 600;
+	text-align: center;
+	padding: 20px;
+}
+
+.venue-list-item {
+	background: #f7f7f7;
+	border-radius: 2px;
+	padding: 20px;
+}
+
+.maptext {
+	color: #323232;
+}
+
+#map-canvas {
+	position: fixed !important;
+	width: 50%;
+	left: 0;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.venue-list {
+    padding: 1em 2em;
+	background: #fff;
+}
+
+@media (max-width: 767px) {
+	#map-canvas {
+		width: 100%;
+		height: 200px;
+		margin: 0 auto;
+	}
+	
+	.venue-list {
+		margin-top: 180px;
+	}
+	
+	.venue-list h2 {
+		font-size: 20px;
+		z-index: -99;
+	}
+}
+
+/****End Map Page****/
+
+        

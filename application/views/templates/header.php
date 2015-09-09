@@ -1,7 +1,7 @@
 <html>
     <head>
         <title>Happy Hours Map!</title>
-        
+        <!--
         <style rel="stylesheet" type="text/css">
             #map-canvas {
                 width: 40%;
@@ -9,6 +9,7 @@
                 float: right;
             }
         </style>
+        -->
         
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
         
@@ -65,7 +66,7 @@
                         };
                     })(marker,content,infowindow)); 
                 }
-                
+                                
             }));
                             
         </script>

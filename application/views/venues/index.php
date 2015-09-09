@@ -1,4 +1,5 @@
 
+
     <nav class="navbar navbar-default">
         <div class="container">
           <!-- Brand and toggle get grouped for better mobile display -->
@@ -14,21 +15,44 @@
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
               <li><a href="#">Home</a></li>
-              <li><a href="#">Contact</a></li>
+              <li><a href="/contact">Contact</a></li>
             </ul>
           </div><!-- /.navbar-collapse -->
         </div><!-- /.container-->
       </nav>
+    
+    
+    
+<script type="text/javascript">
+    
+$(function(){
+        
+    var vidDiv = document.getElementById('vid-div');
+    
+    
 
-<div class="fullscreen-bg">
-    <video autoplay loop class="fullscreen-bg__video">
+    var vidHTML = "<video autoplay loop class='fullscreen-bg__video' poster='/images/poster.jpg'><source src='<?php echo base_url(); ?>assets/video/Beer_Bubbles_300314_Videvo.ogv' type='video/ogv'></source><source src='<?php echo base_url(); ?>assets/video/converted_4e9468b2.webm' type='video/webm'></source><source src='<?php echo base_url(); ?>assets/video/converted_d6bfb7bf.mp4' type='video/mp4'></source></video>";
+
     
-    <source src="<?php echo base_url(); ?>assets/video/Beer_Bubbles_300314_Videvo.ogv" type="video/ogv"></source>
-    <source src="<?php echo base_url(); ?>assets/video/converted_4e9468b2.webm" type="video/webm"></source>
-    <source src="<?php echo base_url(); ?>assets/video/converted_d6bfb7bf.mp4" type="video/mp4"></source>
+    if (window.screen.width > 767) {
+        
+        vidDiv.innerHTML = vidHTML;
+        
+    }else {
+        console.log("Less than!");
+        vidDiv.innerHTML = "<img src='/images/poster.jpg' class='mobile-back'>";
+    }
     
-</video>
-</div>
+    });
+    
+    
+    
+</script>
+
+
+
+<div id="vid-div" class="fullscreen-bg"></div>
+
 
 
 <div class="container">

@@ -130,6 +130,19 @@ select {
   }
 }
 
+.mobile-back {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: -100;
+  opacity: 0.8;
+  width: 100%;
+  height: 100%;
+}
+
 /*
 
 @media (max-width: 767px) {
@@ -302,5 +315,85 @@ h2.logo {
 }
 
 /****End Map Page****/
+
+/****Contact Page****/
+
+.contact-container {
+    width: 100%;
+    background-color: #fff;
+}
+
+.contact-div {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.contact-div input {
+	padding:15px 20px;
+	margin: 5px 0;
+	height:50px;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	border-radius: 3px;
+	width: 100%;
+	box-shadow: none;
+	border: 1px solid #dadada;
+}
+
+.contact-div textarea {
+	height: 200px;
+	padding: 15px 20px;
+	width: 100%;
+	border: 1px solid #dadada;
+	margin: 5px 0;
+	border-radius: 3px;
+}
+
+.contact-div button {
+	color: #fff;
+    background-color: #00BC66;
+    padding: 15px 50px 15px 50px;
+    font-size: 15px;
+    margin: 5px 0 20px 0;
+}
+
+.contact-hero-text {
+	font-family: 'Raleway', sans-serif;
+	font-size: 75px;
+	color: #000;
+	line-height: 86px;
+	text-align: center;
+	padding: 40px 0 0 0;
+}
+
+p.contact-text {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    color: #00bc66;
+    padding: 20px 0;
+}
+
+@media (max-width: 767px) {
+	.contact-div {
+		width: 80%;
+		margin: 0 auto;
+	}
+	
+	.contact-hero-text {
+		font-size: 40px;
+	}
+}
+
+p.fail-text {
+    text-align: center;
+    font-size: 19px;
+    background-color: #f7f7f7;
+    padding: 20px;
+    color: red;
+}
+
+/****End Contact Page****/
 
         

@@ -206,6 +206,16 @@ div#bs-example-navbar-collapse-1 {
 @media (max-width: 480px){
 	a.navbar-brand {
 		font-size: 26px;
+		padding: 15px 0;
+	}
+	
+	.navbar-toggle {
+		margin-right: 0;
+	}
+	.fullscreen-bg {
+		background-image: url('/images/poster.jpg');
+		  background-size: 100% 100%;
+		  background-repeat: no-repeat;
 	}
 }
 

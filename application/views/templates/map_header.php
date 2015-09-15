@@ -1,7 +1,12 @@
 <html>
     <head>
-        <title>Happy Hours Map!</title>
         
+	<title>Get Happy Austin! | Find the best Happy Hours in Austin,Texas</title>
+
+        <meta name="description" content="Find the best Happy Hours in Austin!  Search for the nearest Happy Hours or by area">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
         
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">

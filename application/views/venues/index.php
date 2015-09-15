@@ -39,8 +39,7 @@ $(function(){
         vidDiv.innerHTML = vidHTML;
         
     }else {
-        console.log("Less than!");
-        vidDiv.innerHTML = "<img src='/images/poster.jpg' class='mobile-back'>";
+        vidDiv.innerHTML = "";
     }
     
     });

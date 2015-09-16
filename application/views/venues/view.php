@@ -39,6 +39,8 @@
             <h2>Central Happy Hours!</h2>
             
         <?php } ?>
+
+	<p class="venues-listed">Showing <strong><?php echo count($venue_area); ?></strong> Happy Hours</p>
         
         <div id="venue-list">
         

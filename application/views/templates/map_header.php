@@ -22,8 +22,6 @@
         <script type="text/javascript">
             var jArray = <?php echo json_encode($venues); ?>;
             
-            console.log(jArray);
-            
             google.maps.event.addDomListener(window, "load", (function(){
                 
                 var current_lat = <?php echo $_GET['lat']; ?>

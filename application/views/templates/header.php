@@ -5,6 +5,8 @@
 	<meta name="description" content="Find the best Happy Hours in Austin!  Search for the nearest Happy Hours or by area">
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta name="google-site-verification" content="F8esDABsH8yr18N7fDbjU6vhNUSc4lESrInRoAEb-7U" />
         
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
         

@@ -280,8 +280,7 @@ h2.logo {
 	font-size: 30px;
 	color: #323232;
 	font-weight: 600;
-	text-align: center;
-	padding: 20px;
+	padding: 20px 0;
 }
 
 .venue-list-item {
@@ -407,3 +406,11 @@ p.fail-text {
 /****End Contact Page****/
 
         
+p.venues-listed {
+    padding: 10px 0;
+    font-size: 18px;
+}
+
+p.venues-listed strong {
+        color: #00BC66;
+}

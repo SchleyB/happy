@@ -28,8 +28,10 @@
 
     <div class="venue-list col-sm-6">
                 
-        <div id="venue-list">
-        
+	<p class="venues-listed">Showing <strong><?php echo count($venues); ?></strong> Happy Hours</p>	
+
+        <div id="venue-list"> 
+
             <?php foreach($venues as $venue_item): ?>
     
                 <?php $dis = round($venue_item['distance'], 2); ?>

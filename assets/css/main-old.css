@@ -30,7 +30,7 @@ select {
   -moz-appearance: none;
   appearance: none;
   border: none;
-  font: 500 22px/1.2em 'Raleway', sans-serif;
+  font: 500 30px/1.2em 'Raleway', sans-serif;
   background: #00BC66;
   background: url(/images/arrow-icon.png) no-repeat right #00BC66;
   padding: 25px 100px 25px 50px;
@@ -43,20 +43,19 @@ select {
 .labels {
 	color: #d5d5d5;
 	font-weight: 300;
-	font-size: 22px;
-	font-weight: bold;
+	font-size: 30px;
 }
 
 #index-button {
 	border: none;
-	font: 500 22px/1.2em 'Raleway', sans-serif;
+	font: 500 30px/1.2em 'Raleway', sans-serif;
 	background: #363636;
 	border: 1px solid #00BC66;
 	padding: 25px;
 	color: #d5d5d5;
 	width: 95%;
 	border-radius: 2px;
-	margin-top: 36px;
+	margin-top: 46px;
 	transition: all 0.3s;
 }
 
@@ -178,8 +177,8 @@ a.navbar-brand {
 
 .navbar-default .navbar-nav>li>a {
     color: #d5d5d5;
-    font-size: 22px;
-    transition: border 0.2s, color 0.2s ease;
+    font-size: 19px;
+	transition: border 0.2s, color 0.2s ease;
 }
 
 .navbar-brand strong {
@@ -414,8 +413,4 @@ p.venues-listed {
 
 p.venues-listed strong {
         color: #00BC66;
-}
-
-ul.navbar-right {
-	margin-top: 7px;
 }

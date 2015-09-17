@@ -31,7 +31,7 @@
                 var map;
                     
                 var mapOptions = {
-                  zoom: 11,
+                  zoom: 12,
                   mapTypeId: google.maps.MapTypeId.ROADMAP
                 };
                 
